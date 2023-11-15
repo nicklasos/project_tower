@@ -7,6 +7,7 @@
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Enemies","order":5,"path":"folders/Objects/Enemies.yy",},
     {"name":"GUI","order":3,"path":"folders/Objects/GUI.yy",},
+    {"name":"Managers","order":6,"path":"folders/Objects/Managers.yy",},
     {"name":"Tower","order":4,"path":"folders/Objects/Tower.yy",},
     {"name":"Weapons","order":1,"path":"folders/Objects/Weapons.yy",},
     {"name":"Arrow","order":6,"path":"folders/Objects/Weapons/Arrow.yy",},
@@ -25,9 +26,9 @@
     {"name":"Weapons","order":2,"path":"folders/Sprites/Weapons.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Managers","order":6,"path":"folders/Objects/Managers.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"Helpers","order":3,"path":"scripts/Helpers/Helpers.yy",},
     {"name":"obj_weapon_projectile_parent","order":1,"path":"objects/obj_weapon_projectile_parent/obj_weapon_projectile_parent.yy",},
     {"name":"obj_enemy_pumpkin","order":1,"path":"objects/obj_enemy_pumpkin/obj_enemy_pumpkin.yy",},
     {"name":"obj_weapon_axe_projectile","order":1,"path":"objects/obj_weapon_axe_projectile/obj_weapon_axe_projectile.yy",},
@@ -37,6 +38,7 @@
     {"name":"spr_weapon_bow","order":1,"path":"sprites/spr_weapon_bow/spr_weapon_bow.yy",},
     {"name":"obj_button_add_axe","order":2,"path":"objects/obj_button_add_axe/obj_button_add_axe.yy",},
     {"name":"obj_weapon_arrow_projectile","order":1,"path":"objects/obj_weapon_arrow_projectile/obj_weapon_arrow_projectile.yy",},
+    {"name":"Damage","order":2,"path":"scripts/Damage/Damage.yy",},
     {"name":"spr_axe","order":2,"path":"sprites/spr_axe/spr_axe.yy",},
   ],
 }
