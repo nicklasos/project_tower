@@ -1,20 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_weapon_axe_projectile",
+  "name": "obj_enemy_projectile_fireball",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Axe",
-    "path": "folders/Objects/Weapons/Axe.yy",
+    "name": "Projectiles",
+    "path": "folders/Objects/Enemies/Projectiles.yy",
   },
   "parentObjectId": {
-    "name": "obj_weapon_projectile_parent",
-    "path": "objects/obj_weapon_projectile_parent/obj_weapon_projectile_parent.yy",
+    "name": "obj_enemy_projectile_parent",
+    "path": "objects/obj_enemy_projectile_parent/obj_enemy_projectile_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_axe",
-    "path": "sprites/spr_axe/spr_axe.yy",
+    "name": "spr_bomb",
+    "path": "sprites/spr_bomb/spr_bomb.yy",
   },
   "spriteMaskId": null,
   "visible": true,

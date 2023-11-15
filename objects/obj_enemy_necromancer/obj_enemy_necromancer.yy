@@ -1,20 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_weapon_axe_projectile",
+  "name": "obj_enemy_necromancer",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Axe",
-    "path": "folders/Objects/Weapons/Axe.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "parentObjectId": {
-    "name": "obj_weapon_projectile_parent",
-    "path": "objects/obj_weapon_projectile_parent/obj_weapon_projectile_parent.yy",
+    "name": "obj_enemy_parent",
+    "path": "objects/obj_enemy_parent/obj_enemy_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_axe",
-    "path": "sprites/spr_axe/spr_axe.yy",
+    "name": "spr_necromancer",
+    "path": "sprites/spr_necromancer/spr_necromancer.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,21 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_weapon_axe_projectile",
+  "name": "obj_enemy_projectile_parent",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Axe",
-    "path": "folders/Objects/Weapons/Axe.yy",
+    "name": "Projectiles",
+    "path": "folders/Objects/Enemies/Projectiles.yy",
   },
-  "parentObjectId": {
-    "name": "obj_weapon_projectile_parent",
-    "path": "objects/obj_weapon_projectile_parent/obj_weapon_projectile_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_axe",
-    "path": "sprites/spr_axe/spr_axe.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

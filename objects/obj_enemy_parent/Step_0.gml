@@ -1,5 +1,4 @@
 
-
 switch (state) {
 	case STATES.MOVING:
 		direction = point_direction(x, y, obj_tower.x, obj_tower.y)

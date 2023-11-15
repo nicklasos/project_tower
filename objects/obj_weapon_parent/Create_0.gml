@@ -10,7 +10,6 @@ fire = function () {
 	_projectile.direction = point_direction(x, y, target.x, target.y) // irandom_range(0, 360);
 	_projectile.speed = projectile_speed;
 	_projectile.image_angle = _projectile.direction - 90
-
 }
 
 alarm[0] = 1 // fire

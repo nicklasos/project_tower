@@ -1,0 +1,5 @@
+
+hit()
+
+instance_destroy()
+

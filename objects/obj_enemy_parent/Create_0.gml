@@ -1,11 +1,4 @@
 
-max_hp = 100
-hp = max_hp
-damage = 10
-range = 20
-fire_rate = 2 // seconds
-
-
 enum STATES {
 	MOVING,
 	ATTACKING,
@@ -13,7 +6,7 @@ enum STATES {
 
 start_move = function () {
 	state = STATES.MOVING
-	speed = 0.3
+	speed = spd
 }
 
 start_attack = function () {
@@ -23,7 +16,7 @@ start_attack = function () {
 	alarm[0] = 1
 }
 
-deal_damage = function () {
+hit = function () {
 	deal_damage_to_player(self)
 }
 
