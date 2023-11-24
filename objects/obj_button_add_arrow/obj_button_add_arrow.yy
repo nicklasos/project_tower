@@ -3,7 +3,6 @@
   "resourceVersion": "1.0",
   "name": "obj_button_add_arrow",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
@@ -13,8 +12,8 @@
     "path": "folders/Objects/GUI.yy",
   },
   "parentObjectId": {
-    "name": "obj_button_parent",
-    "path": "objects/obj_button_parent/obj_button_parent.yy",
+    "name": "obj_button_add_parent",
+    "path": "objects/obj_button_add_parent/obj_button_add_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

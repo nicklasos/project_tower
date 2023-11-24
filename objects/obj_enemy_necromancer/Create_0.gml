@@ -1,15 +1,20 @@
 
-max_hp = 500
+max_hp = 80
 hp = max_hp
 
 damage = 10
-range = 100
+range = 100 // attack range
 fire_rate = 3 // seconds
 spd = 0.4
 
 projectile = obj_enemy_projectile_fireball
 projectile_speed = 1
 
+sprite_states = {
+	move: spr_necromancer,
+	idle: spr_necromancer_idle,
+	attack: spr_necromancer_idle,
+}
 
 event_inherited();
 

@@ -1,5 +1,5 @@
 
-damage = 50
+damage = 40
 
 event_inherited();
 

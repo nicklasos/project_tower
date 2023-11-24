@@ -1,4 +1,4 @@
-function draw_hp_bar(_obj){
+function draw_hp_bar(_obj) {
 	var _bar_x1 = _obj.x - _obj.sprite_width / 2; // left
 	var _bar_y1 = _obj.y + _obj.sprite_height / 2 + 4; // top
 	var _bar_x2 = _obj.x + _obj.sprite_width / 2; // right

@@ -1,6 +1,6 @@
 /// @description Spawn enemy
 
-var _random_enemy_obj = choose(obj_enemy_pumpkin, obj_enemy_pumpkin, obj_enemy_necromancer)
+var _random_enemy_obj = choose(obj_enemy_pumpkin, obj_enemy_pumpkin, obj_enemy_necromancer, obj_enemy_knight)
 
 var _enemy = instance_create_layer(x, y, "Instances", _random_enemy_obj);
 
